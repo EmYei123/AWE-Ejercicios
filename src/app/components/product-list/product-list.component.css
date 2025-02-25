@@ -1,0 +1,20 @@
+.on-sale {
+  color: green;
+  font-weight: bold;
+}
+
+.out-of-stock {
+  color: red;
+  margin-left: 10px;
+}
+
+li {
+  cursor: pointer;
+  list-style-type: none;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #f5f5f5;
+}

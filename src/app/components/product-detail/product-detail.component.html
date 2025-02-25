@@ -1,0 +1,7 @@
+<div *ngIf="product">
+  <h4>{{ product.name }}</h4>
+  <img [src]="product.img" alt="{{ product.name }}" style="max-width: 200px; height: auto;">
+  <p>Precio: ${{ product.price }}</p>
+  <p>En stock: {{ product.inStock ? 'Sí' : 'No' }}</p>
+  <p *ngIf="product.onSale">¡Este producto está en oferta!</p>
+</div>
